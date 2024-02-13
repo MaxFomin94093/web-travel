@@ -1,0 +1,22 @@
+img {
+    width: 700px;
+}
+.img1 {
+    border-radius: 50px;
+}
+h1 {
+    color: green;
+    font-size: 50px;
+}
+.img2 {
+    margin-top: 20px;
+}
+#btn {
+    width: 80px;
+    background-color: blanchedalmond;
+    padding: 15px;
+    border-radius: 15px;
+}
+h2:hover {
+    color:aqua;    
+}
