@@ -37,28 +37,53 @@
     border-radius: 20px;
     text-overflow: ellipsis;
     /* background-size: contain; */
+    /* border: 1px solid black; */
 }
 .card__image {
     position: absolute;
     background-size: cover;
     height: 100%;
+    /* transition: 1s; */
+    /* top: calc(50%-100px);
+    left: calc(50%-100px);  */
     /* width: 100%; */
+    /* object-fit: cover; */
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.card__wrap {
+    position: absolute;
+    /* bottom: 30px; */
+    left: 25px;
+    bottom: -1px;
+    /* filter: blur(2px); */
 }
 .card__title {
-    position: absolute;
+    /* position: absolute; */
     /* padding-top: 200px; */
     /* margin-bottom: 100px; */
     bottom: 110px;
     left: 25px;
     font-size: 30px;
     color: white;
+    margin: 0;
+    line-height: 36px;
+    font-weight: 600;
 }
 .card__description {
-    position: absolute;
+    /* position: absolute; */
     bottom: 5px;
     left: 25px;
     font-size: 15px;
     width: 330px;
     text-overflow: ellipsis;
     color: white;
+    margin-top: 5px;
+    line-height: 20px;
+    opacity: .9;
+}
+.card__image:hover {
+    height: 110%;
+    transition: 1s;
 }
