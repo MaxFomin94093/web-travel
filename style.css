@@ -137,5 +137,8 @@ body {
     .card {
         margin: 0 auto;
     }
+    .title {
+        font-size: 22px;
+    }
 }
 
